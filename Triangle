@@ -1,0 +1,29 @@
+
+import java.util.Scanner;
+
+class Tri
+{
+	public static void main (String[] args)
+	{
+		int j=1,k=1; 
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("请输入打印三角形的行数");
+		int i= scan.nextInt();
+		//int height = scan.nextInt();
+		for (j=1; j<=i ; j++ )
+		{
+			for (k=1; k<=(i-j) ;k++ )
+			{
+				System.out.print(" ");
+			}
+			//k=j;
+			for (k=1; k<=(2*j-1) ;k++ )
+			{
+				System.out.print("*");
+			}
+			System.out.print("\n");
+
+		}
+	}
+}
