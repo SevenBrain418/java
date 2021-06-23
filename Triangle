@@ -23,6 +23,7 @@ class Tri
 				System.out.print("*");
 			}
 			System.out.print("\n");
+			
 
 		}
 	}
